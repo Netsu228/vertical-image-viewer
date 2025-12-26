@@ -13,3 +13,18 @@
   </main>
 </body>
 </html>
+body {
+  margin: 0;
+  background: #111;
+}
+
+.viewer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.viewer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
