@@ -1,7 +1,15 @@
 # vertical-image-viewer
-vertical-image-viewer/
-├── index.html
-├── style.css
-└── images/
-    ├── sample1.jpg
-    └── sample2.jpg
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>縦長画像ビューア</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="viewer">
+    <img src="images/sample1.jpg" alt="image1">
+    <img src="images/sample2.jpg" alt="image2">
+  </main>
+</body>
+</html>
